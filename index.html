@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Plan Card</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="estilo.css" />
+  </head>
+  <body>
+    <div class="card">
+      <div class="card-header">
+        <div class="plan-label">
+          <span class="check-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="12" cy="12" r="9.5" />
+              <path d="M7 12.5L10.2 15.7L17 8.9" />
+            </svg>
+          </span>
+          <span>Tu plan</span>
+        </div>
+
+        <a href="#" class="see-all">
+          Ver todas
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M5 12H19M19 12L13 6M19 12L13 18" />
+          </svg>
+        </a>
+      </div>
+
+      <h2>Plan Empresarial Activo</h2>
+
+      <p class="description">
+        Contás con el plan empresarial financiado por 3 meses más, con acceso
+        simultáneo para 23 empleados activos.
+      </p>
+
+      <div class="usage-row">
+        <span>Cupos utilizados: 23/30</span>
+        <span>76%</span>
+      </div>
+
+      <div class="progress-bar" aria-label="Progreso de cupos">
+        <div class="progress-fill"></div>
+      </div>
+    </div>
+  </body>
+</html>
